@@ -1,0 +1,219 @@
+/* DESKTOP SITE */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* DESKTOP */
+body {
+  background: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding: 3rem 4rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.title {
+  line-height: 3rem;
+  font-size: 2.2rem;
+  color: #0081ff;
+  font-weight: 700;
+  padding: 1rem 0rem;
+}
+h4 {
+  font-size: 1.2rem;
+  padding-top: 1.5rem;
+}
+form {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: left;
+  gap: 0.68rem;
+  flex-wrap: wrap;
+}
+.email_phone,
+.password {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 1px 50px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: none;
+  user-select: none;
+  height: 4rem;
+  padding: 0.5rem 1rem;
+}
+::placeholder {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.buttons {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding: 2rem 0rem 1rem 0rem;
+  gap: 4rem;
+}
+.signin_btn {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  border: none;
+  user-select: none;
+  background: #00ab26;
+  box-shadow: 0px 1px 50px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+.cancel_btn {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #e03c3c;
+  background: transparent;
+  border: none;
+  user-select: none;
+  padding: 1rem 2rem;
+}
+h5 a {
+  text-decoration: none;
+  color: #0081ff;
+  font-weight: 700;
+}
+h5 {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.signup_btn {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  border: none;
+  user-select: none;
+  background: #0081ff;
+  box-shadow: 0px 1px 50px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 1rem 1.8rem;
+}
+.no_account {
+  padding: 2rem 0rem 1rem 0rem;
+  font-size: 1.2rem;
+}
+.footer {
+  font-size: 0.8rem;
+  padding-top: 10rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* TABLET SCREEN */
+@media (max-width: 800px) {
+  body {
+    max-width: 600px;
+    font-family: "Poppins", sans-serif;
+  }
+  .title {
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+    padding-top: 1.8rem;
+  }
+  form {
+    padding-top: 1.5rem;
+  }
+  .email_phone,
+  .password {
+    height: 3rem;
+    padding: 0.5rem 1rem;
+  }
+  ::placeholder {
+    font-size: 0.9rem;
+  }
+
+  .signin_btn {
+    font-size: 0.8rem;
+    padding: 0.8rem 1.6rem;
+  }
+  .cancel_btn {
+    font-size: 0.8rem;
+    padding: 0.8rem 1.6rem;
+  }
+
+  h5 {
+    font-size: 0.7rem;
+    padding: 0.5rem 0rem 1rem 0rem;
+  }
+  .signup_btn {
+    font-size: 0.8rem;
+    padding: 0.8rem 1.3rem;
+  }
+  .no_account {
+    padding: 1rem 0rem;
+    font-size: 1.2rem;
+  }
+  .footer {
+    font-size: 0.7rem;
+    padding-top: 8rem;
+  }
+}
+
+/* MOBILE SCREEN */
+@media (max-width: 375px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    max-width: 350px;
+    padding: 4rem 2rem;
+  }
+  .title {
+    line-height: 2rem;
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+
+  .email_phone,
+  .password {
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+  }
+  ::placeholder {
+    font-size: 0.7rem;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0rem 0.5rem 0rem;
+    gap: 2rem;
+  }
+
+  .signin_btn {
+    font-size: 0.6rem;
+    padding: 0.7rem 1.6rem;
+  }
+  .cancel_btn {
+    font-size: 0.6rem;
+    padding: 0.7rem 1.4rem;
+  }
+  h5 {
+    font-size: 0.6rem;
+  }
+  h5 a {
+    font-size: 0.6rem;
+  }
+  .signup_btn {
+    font-size: 0.6rem;
+    padding: 0.7rem 1.4rem;
+  }
+  .no_account {
+    padding: 1rem 0rem;
+    font-size: 1rem;
+  }
+  .footer {
+    padding-top: 5.5rem;
+    font-size: 0.5rem;
+  }
+}
